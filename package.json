@@ -9,9 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.6",
+    "date-fns": "^2.29.3",
+    "mongoose": "^6.6.4",
+    "mongoose-sequence-plugin": "^1.0.5",
     "next": "12.3.1",
+    "next-connect": "^0.13.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "sequence": "^3.0.0",
+    "uuid": "^9.0.0"
   },
   "devDependencies": {
     "eslint": "8.24.0",
