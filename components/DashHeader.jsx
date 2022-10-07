@@ -4,11 +4,14 @@ import React from 'react'
 const DashHeader = () => {
   return (
     <header className="">
-            <div className="container">
-                <Link href="/">
-                  <a>techNotes</a>
-                    
-                </Link>
+            <div className="container border-b-2 border-gray-500">
+                  <Link href='/dash'>
+                  <a>
+                  <h1 className="text-3xl font-bold py-2  ">techNotes</h1>
+                  </a>
+                  
+                  </Link>
+                
                 <nav >
                     {/* add nav buttons later */}
                 </nav>

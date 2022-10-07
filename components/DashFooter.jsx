@@ -18,7 +18,7 @@ const DashFooter = () => {
   if(router.pathname !== '/dash') {
     goHomeButton = (
       <button
-       className="text-red-500"
+       className="text-red-500 cursor-pointer"
        title="Home"
        onClick={onGoHomeClicked}
        >
@@ -30,9 +30,9 @@ const DashFooter = () => {
 
 
   return (
-    <footer>
+    <footer className="flex space-x-4">
       { goHomeButton }
-      <p> Current User</p>
+      <p> Current Employee</p>
       <p> Status</p>
     </footer>
   )
