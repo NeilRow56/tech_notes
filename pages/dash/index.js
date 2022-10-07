@@ -25,7 +25,7 @@ const WelcomePage = () => {
             
 
             <p className="py-3">
-            <Link href="/dash/notes" className="cursor-pointer hover:red-700">
+            <Link href="/dash/notes" className="cursor-pointer ">
             <a className="flex "><FontAwesomeIcon icon={faArrowRight} height={20} width={20} /><h4 className="ml-3">View techNotes</h4></a>
             </Link>
             </p>
