@@ -9,10 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.2.0",
+    "@fortawesome/free-solid-svg-icons": "^6.2.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "bcrypt": "^5.0.1",
     "cookie-parser": "^1.4.6",
     "date-fns": "^2.29.3",
     "mongoose": "^6.6.4",
+    "mongoose-sequence": "^5.3.1",
     "mongoose-sequence-plugin": "^1.0.5",
     "next": "12.3.1",
     "next-connect": "^0.13.0",
@@ -22,7 +26,10 @@
     "uuid": "^9.0.0"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.12",
     "eslint": "8.24.0",
-    "eslint-config-next": "12.3.1"
+    "eslint-config-next": "12.3.1",
+    "postcss": "^8.4.17",
+    "tailwindcss": "^3.1.8"
   }
 }
