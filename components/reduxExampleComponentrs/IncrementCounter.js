@@ -7,7 +7,7 @@ const IncrementCounter = () => {
       <h1 className='text-3xl font-bold my-5'>
         Counter: <span className='text-3xl font-bold my-5'>{counter}</span>
       </h1>
-      <button className="bg-gray-200 rounded-md px-2 py-1" onClick={() => setCounter(count + 1)}>Add To Count</button>
+      <button className="bg-gray-200 rounded-md px-2 py-1" onClick={() => setCounter(counter + 1)}>Add To Count</button>
     </div>
   )
 }
